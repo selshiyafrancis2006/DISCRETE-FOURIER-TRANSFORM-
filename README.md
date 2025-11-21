@@ -8,9 +8,8 @@
 PC installed with SCILAB. 
 
 # PROGRAM: 
-<h1>DFT and FFT</h1>
-
-``
+# DFT AND FFT
+```
 clc; 
 clear; 
 xn=[1 2 3 4 4 3 2 1]; 
@@ -44,6 +43,7 @@ xlabel('frequency(Hz)');
 ylabel('Phase'); 
 title('Phase spectrum');
 
+# FFT:
 
 clear; 
 clc; 
@@ -80,7 +80,6 @@ plot2d3(n2,y)
 xlabel('Time n'); 
 ylabel('Amplitude'); 
 title('Inverse FFT OF X(K)');
-
 ```
 
 # OUTPUT:
